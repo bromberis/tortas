@@ -1,11 +1,11 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 /********* CAROUSEL  **********/
 
 .carousel-inner img {
   height: 600px;
-}
-
-.carousel-caption {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .caption-1 {
@@ -25,4 +25,14 @@
 .caption-3 {
   bottom: 0;
   color: #6c4e52;
+}
+
+/********* REDIRECT TO OTHER MENU  **********/
+
+.redirect-header {
+  font-size: 2.5rem;
+}
+
+.redirect-text {
+  font-size: 1.2rem;
 }
