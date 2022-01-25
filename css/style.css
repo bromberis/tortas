@@ -1,4 +1,4 @@
-* {
+header {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -9,11 +9,11 @@
   height: 90%;
 }
 .my_navbar {
-  background-color: rgb(12, 33, 51);  
+  background-color: rgb(12, 33, 51);
 }
 
 .my_position {
-  right:35px;
+  right: 35px;
 }
 /* .my_nav_icons {
   margin-left: 290px;
@@ -22,10 +22,6 @@
 /* .nav-item {
   color:rgb(189, 139, 34);
 } */
-
-
-
-
 
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
