@@ -1,5 +1,5 @@
 :root {
-  --logoColor:rgb(189, 139, 34);
+  --logoColor: rgb(189, 139, 34);
   --navColor: #0c2233;
   --caption-1: #de483d;
   --caption-2: #f6cb1d;
@@ -19,11 +19,16 @@ header {
   height: 90%;
 }
 
-.my_navbar-toggler{
-  color: var(--logoColor)
+.my_navbar-toggler {
+  color: var(--logoColor);
 }
 
-.my_navbar, footer, .my-card-1, .my-card-2, .my-card-3, .my-card-4 {
+.my_navbar,
+footer,
+.my-card-1,
+.my-card-2,
+.my-card-3,
+.my-card-4 {
   background-color: rgb(12, 33, 51);
 }
 
@@ -42,7 +47,7 @@ p {
 
 /* footer */
 .icon-footer {
- float: left;
+  float: left;
 }
 
 .copy-written {
@@ -53,17 +58,20 @@ p {
   padding-left: 15px;
 }
 
-hr{
+hr {
   color: var(--pColor);
   opacity: 20px;
   margin-top: -15px;
 }
 
-.footer-icon-color, .nav-icon-color {
+.footer-icon-color,
+.nav-icon-color {
   color: var(--pColor);
 }
 
-.footer-icon-color:hover, .nav-icon-color:hover, .my_footer:hover {
+.footer-icon-color:hover,
+.nav-icon-color:hover,
+.my_footer:hover {
   color: var(--logoColor);
 }
 
@@ -85,19 +93,19 @@ hr{
   top: 200px;
   right: 100px;
   text-align: right;
-  color: #de483d;
+  color: var(--caption-1);
 }
 
 .caption-2 {
   bottom: 0px;
   left: 70px;
   text-align: left;
-  color: #f6cb1d;
+  color: var(--caption-2);
 }
 
 .caption-3 {
   bottom: 0;
-  color: #6c4e52;
+  color: var(--caption-3);
 }
 
 /********* REDIRECT TO OTHER MENU  **********/
@@ -112,11 +120,8 @@ hr{
 
 /*tablet view*/
 @media (max-width: 900px) {
-
-
 }
 
 /*mobile view*/
 @media (max-width: 600px) {
-  
 }
