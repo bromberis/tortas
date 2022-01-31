@@ -1,26 +1,74 @@
+:root {
+  --logoColor:rgb(189, 139, 34);
+  --navColor: #0c2233;
+  --caption-1: #de483d;
+  --caption-2: #f6cb1d;
+  --caption-3: #6c4e52;
+  --pColor: rgb(155, 155, 155);
+}
+
 header {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
 }
+
 /* NAVBAR */
 .logo {
   width: 90px;
   height: 90%;
 }
-.my_navbar {
+
+.my_navbar-toggler{
+  color: var(--logoColor)
+}
+
+.my_navbar, footer, .my-card-1, .my-card-2, .my-card-3, .my-card-4 {
   background-color: rgb(12, 33, 51);
+}
+
+p {
+  color: var(--pColor);
+  font-size: 10px;
+}
+
+.list-group {
+  display: inline;
 }
 
 .my_position {
   right: 35px;
 }
+
+/* footer */
+.icon-footer {
+ float: left;
+}
+
+.copy-written {
+  padding-top: 135px;
+}
+
+.text-padding {
+  padding-left: 15px;
+}
+
+hr{
+  color: var(--pColor);
+  opacity: 20px;
+  margin-top: -15px;
+}
+
+.footer-icon-color, .nav-icon-color {
+  color: var(--pColor);
+}
+
+.footer-icon-color:hover, .nav-icon-color:hover, .my_footer:hover {
+  color: var(--logoColor);
+}
+
 /* .my_nav_icons {
   margin-left: 290px;
-} */
-
-/* .nav-item {
-  color:rgb(189, 139, 34);
 } */
 
 * {
@@ -60,4 +108,15 @@ header {
 
 .redirect-text {
   font-size: 1.2rem;
+}
+
+/*tablet view*/
+@media (max-width: 900px) {
+
+
+}
+
+/*mobile view*/
+@media (max-width: 600px) {
+  
 }
