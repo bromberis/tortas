@@ -1,3 +1,12 @@
+:root {
+  --logoColor: rgb(189, 139, 34);
+  --navColor: #0c2233;
+  --caption-1: #de483d;
+  --caption-2: #f6cb1d;
+  --caption-3: #6c4e52;
+  --pColor: rgb(155, 155, 155);
+}
+
 .chat-bar-collapsible {
   position: fixed;
   bottom: 0;
@@ -6,7 +15,7 @@
 }
 
 .collapsible {
-  background-color: rgb(90, 150, 240);
+  background-color: var(--logoColor);
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -15,7 +24,7 @@
   outline: none;
   font-size: 18px;
   border-radius: 10px 10px 0px 0px;
-  border: 3px solid white;
+  border: 3px solid var(--logoColor);
   border-bottom: none;
 }
 
