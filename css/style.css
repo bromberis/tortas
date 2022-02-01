@@ -50,17 +50,13 @@ p {
   float: left;
 }
 
-.copy-written {
-  padding-top: 135px;
-}
-
 .text-padding {
   padding-left: 15px;
 }
 
 hr {
   color: var(--pColor);
-  opacity: 20px;
+  opacity: 10%;
   margin-top: -15px;
 }
 
@@ -73,6 +69,10 @@ hr {
 .nav-icon-color:hover,
 .my_footer:hover {
   color: var(--logoColor);
+}
+
+.footer-logo{
+  display: block;
 }
 
 /* .my_nav_icons {
