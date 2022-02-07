@@ -19,8 +19,12 @@ header {
   height: 90%;
 }
 
-.my_navbar-toggler {
+.my_navbar-toggler, .card-title {
   color: var(--logoColor);
+}
+
+.my_menu, .card-text {
+color: var(--navColor);
 }
 
 .my_navbar,
@@ -45,6 +49,10 @@ p {
   right: 35px;
 }
 
+.my_menu {
+  font-size:14px;
+}
+
 /* footer */
 .icon-footer {
   float: left;
@@ -67,7 +75,7 @@ hr {
 
 .footer-icon-color:hover,
 .nav-icon-color:hover,
-.my_footer:hover {
+.my_footer:hover, .my_menu:hover {
   color: var(--logoColor);
 }
 
