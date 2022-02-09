@@ -1,0 +1,92 @@
+[
+  {
+    "image": "img/1.jpg",
+    "title": "Flamingas",
+    "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "price": "30eur/kg"
+  },
+  {
+    "image": "img/2.jpg",
+    "title": "Rožė",
+    "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "price": "30eur/kg"
+  },
+  {
+    "image": "img/3.jpg",
+    "title": "Gimtadienis",
+    "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "price": "30eur/kg"
+  },
+  {
+    "image": "img/4.jpg",
+    "title": "Purpurinė šventė",
+    "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "price": "30eur/kg"
+  },
+  {
+    "image": "img/5.jpg",
+    "title": "Sentimentai",
+    "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "price": "30eur/kg"
+  },
+  {
+    "image": "img/6.jpg",
+    "title": "Vestuvių džiaugsmas",
+    "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "price": "30eur/kg"
+  },
+  {
+    "image": "img/7.jpg",
+    "title": "Vaivorykštė",
+    "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "price": "30eur/kg"
+  },
+  {
+    "image": "img/8.jpg",
+    "title": "Sentimentai",
+    "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "price": "30eur/kg"
+  },
+  {
+    "image": "img/9.jpg",
+    "title": "Kakavinis gimtadienis",
+    "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "price": "30eur/kg"
+  },
+  {
+    "image": "img/10.jpg",
+    "title": "Baltas sniegas",
+    "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "price": "30eur/kg"
+  },
+  {
+    "image": "img/11.jpg",
+    "title": "Šokoladinis",
+    "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "price": "30eur/kg"
+  },
+  {
+    "image": "img/12.jpg",
+    "title": "Pirmas gimtadienis",
+    "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "price": "30eur/kg"
+  },
+  {
+    "image": "img/13.jpg",
+    "title": "Citrininis",
+    "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "price": "30eur/kg"
+  },
+  {
+    "image": "img/14.jpg",
+    "title": "Eglutė",
+    "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "price": "30eur/kg"
+  },
+  {
+    "image": "img/15.jpg",
+    "title": "Kalėdos",
+    "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "price": "30eur/kg"
+  }
+]
