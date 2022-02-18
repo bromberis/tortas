@@ -19,7 +19,13 @@ header {
   height: 90%;
 }
 
-.my_navbar-toggler, .card-title {
+.my_underline{
+  text-decoration: underline;
+  text-decoration-color: var(--logoColor);
+  text-decoration-style: wavy;
+}
+
+.my_navbar-toggler, .card-title, .a_color {
   color: var(--logoColor);
 }
 
@@ -53,6 +59,42 @@ p {
   font-size:14px;
 }
 
+/*Product card "Rožė" cake*/
+
+.tortas-roze {
+  height: 80vh;
+  width: 89%;
+}
+
+.tortas-roze-maza{
+  height: 20vh;
+}
+
+.pasirinkite-savybe {
+  padding-left: 220px;
+}
+
+.pasirinkite-kieki {
+  margin-top: 20px;
+}
+
+.pasirinkit-vnt {
+  padding-left: 220px;
+}
+
+.fa-right-long {
+  color:black;
+}
+
+.row-space {
+  padding-top: 130px;
+}
+
+.panasus-produktai {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 /* footer */
 .icon-footer {
   float: left;
@@ -81,6 +123,10 @@ hr {
 
 .footer-logo{
   display: block;
+}
+
+.footer-space {
+  margin-top: 150px;
 }
 
 /* .my_nav_icons {
