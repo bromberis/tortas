@@ -82,6 +82,16 @@ p {
   padding-left: 220px;
 }
 
+.my-photo-rose:hover {
+  transform: scale(1.10) translateY(-.5rem);
+  outline: 0.2rem solid var(--logoColor);
+}
+
+.my-left {
+  color: black;
+  height: 50px;
+}
+
 .fa-right-long {
   color:black;
 }
