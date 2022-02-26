@@ -19,18 +19,21 @@ header {
   height: 90%;
 }
 
-.my_underline{
+.my_underline {
   text-decoration: underline;
   text-decoration-color: var(--logoColor);
   text-decoration-style: wavy;
 }
 
-.my_navbar-toggler, .card-title, .a_color {
+.my_navbar-toggler,
+.card-title,
+.a_color {
   color: var(--logoColor);
 }
 
-.my_menu, .card-text {
-color: var(--navColor);
+.my_menu,
+.card-text {
+  color: var(--navColor);
 }
 
 .my_navbar,
@@ -56,7 +59,7 @@ p {
 }
 
 .my_menu {
-  font-size:14px;
+  font-size: 14px;
 }
 
 /*Product card "Rožė" cake*/
@@ -66,7 +69,7 @@ p {
   width: 89%;
 }
 
-.tortas-roze-maza{
+.tortas-roze-maza {
   height: 20vh;
 }
 
@@ -83,7 +86,7 @@ p {
 }
 
 .my-photo-rose:hover {
-  transform: scale(1.10) translateY(-.5rem);
+  transform: scale(1.1) translateY(-0.5rem);
   outline: 0.2rem solid var(--logoColor);
 }
 
@@ -93,7 +96,7 @@ p {
 }
 
 .fa-right-long {
-  color:black;
+  color: black;
 }
 
 .row-space {
@@ -127,11 +130,12 @@ hr {
 
 .footer-icon-color:hover,
 .nav-icon-color:hover,
-.my_footer:hover, .my_menu:hover {
+.my_footer:hover,
+.my_menu:hover {
   color: var(--logoColor);
 }
 
-.footer-logo{
+.footer-logo {
   display: block;
 }
 
@@ -188,4 +192,27 @@ hr {
 
 /*mobile view*/
 @media (max-width: 600px) {
+}
+
+/* ABOUT US */
+.about-us h3 {
+  font-size: 2.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.about-us p {
+  font-size: 1.3rem;
+}
+
+.about-us img {
+  width: 50vw;
+  text-align: left;
+  margin-right: 15px;
+}
+
+.about-us-img {
+  text-align: right;
+  width: 50vw;
 }
