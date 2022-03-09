@@ -195,14 +195,16 @@ hr {
 }
 
 /* ABOUT US */
-.about-us h3 {
+.about-us h3,
+.news-title {
   font-size: 2.8rem;
   text-align: center;
   text-transform: uppercase;
   padding: 20px;
 }
 
-.about-us p {
+.about-us p,
+.news p {
   font-size: 1.3rem;
 }
 
@@ -215,4 +217,10 @@ hr {
 .about-us-img {
   text-align: right;
   width: 50vw;
+}
+
+/* NAUJIENOS */
+
+.news img {
+  width: 30vw;
 }
