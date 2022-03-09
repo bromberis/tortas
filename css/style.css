@@ -7,6 +7,10 @@
   --pColor: rgb(155, 155, 155);
 }
 
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 header {
   margin: 0;
   padding: 0;
@@ -108,7 +112,22 @@ p {
   margin-bottom: 60px;
 }
 
-/* footer */
+/* Newsletter */
+
+.bg-newsletter {
+  background-color:var(--logoColor);
+}
+
+.btn-color {
+background-color: var(--navColor);
+border: 0;
+}
+
+.news-input {
+  width: 660px;
+}
+/* Footer */
+footer
 .icon-footer {
   float: left;
 }
@@ -143,12 +162,8 @@ hr {
   margin-top: 150px;
 }
 
-/* .my_nav_icons {
-  margin-left: 290px;
-} */
-
-* {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+footer ul:last-child{
+  padding-left: 0;
 }
 
 /********* CAROUSEL  **********/
