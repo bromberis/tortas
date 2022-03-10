@@ -73,7 +73,7 @@ p {
   width: 100%;
 }
 
-.tortas-roze-maza {
+.tortas-roze-maza, .photo-ikelti {
   height: 20vh;
 }
 
@@ -112,6 +112,17 @@ p {
   margin-bottom: 60px;
 }
 
+/* Individualus uzsakymas */
+
+.register-icon{
+color:var(--logoColor);
+font-size:30px;
+}
+
+.register-icon:hover {
+  color: var(--navColor);
+}
+
 /* Newsletter */
 
 .bg-newsletter {
@@ -126,9 +137,14 @@ p {
 .news-input {
   width: 660px;
 }
+
 /* Footer */
 footer .icon-footer {
   float: left;
+}
+
+.social-icons{
+padding-top: 70px;
 }
 
 .text-padding {
@@ -194,7 +210,7 @@ hr {
 
 /*laptop view*/
 @media (min-width: 1024px) {
-  .tortas-roze-maza{
+  .tortas-roze-maza, .photo-ikelti{
     width: 9vw;
   }
 }
