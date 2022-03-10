@@ -70,7 +70,7 @@ p {
 
 .tortas-roze {
   height: 80vh;
-  width: 89%;
+  width: 100%;
 }
 
 .tortas-roze-maza {
@@ -158,10 +158,6 @@ hr {
   display: block;
 }
 
-.footer-space {
-  margin-top: 150px;
-}
-
 footer ul:last-child{
   padding-left: 0;
 }
@@ -201,8 +197,11 @@ footer ul:last-child{
   font-size: 1.2rem;
 }
 
-/*tablet view*/
-@media (max-width: 900px) {
+/*laptop view*/
+@media (min-width: 1024px) {
+  .tortas-roze-maza{
+    width: 9vw;
+  }
 }
 
 /*mobile view*/
