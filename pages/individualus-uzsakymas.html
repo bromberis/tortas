@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Boot -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link rel="stylesheet" href="../css/chat.css" />
+
+    <title>Shuga</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark my_navbar">
+            <div class="container">
+                <img src="../img/image5@2x.png" alt="Logo" class="logo" />
+                <a href="#" class="navbar-brand">Shuga</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center position-relative" id="navmenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown pe-3">
+                            <a class="nav-link dropdown-toggle" href="#tortai_ir_desertai" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tortai ir desertai
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item navbutton" href="pages/proginiai-tortai.html">Proginiai
+                                        tortai</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbutton" href="#">Firminiai tortai</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbutton" href="#">Desertai ir pyragaičiai</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbutton" href="#">Pyragai</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbutton" href="#">Sausainiai</a>
+                                </li>
+                                <li><a class="dropdown-item navbutton" href="#">Duona</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a href="#individualus-uzsakymas" class="nav-link">Individualus užsakymas</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a href="./pages/galerija.html" class="nav-link">Galerija</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a href="#naujienos" class="nav-link">Naujienos</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a href="./pages/apie-mus.html" class="nav-link">Apie mus</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a href="#kontaktai" class="nav-link">Kontaktai</a>
+                        </li>
+
+                        <li class="nav-item pe-3 position-absolute top-0 end-0">
+                            <a href="#pirkiniu_krepselis" class="nav-link">
+                                <i class="fas fa-shopping-cart nav-icon-color"></i></a>
+                        </li>
+
+                        <li class="nav-item pe-3 position-absolute top-0 my_position">
+                            <a href="#registracija" class="nav-link">
+                                <i class="fas fa-user-circle nav-icon-color"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Nuotraukų įkėlimas -->
+    <main class="text-sm-start">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6 d-inline">
+                    <h4>Individualus užsakymas</h4>
+                    <h6>Įkelti savo nuotraukas</h6>
+                    <div class="pt-3 pb-4">
+                        <img src="../img/photoPNG.PNG" alt="vieta įkelti savo nuotrauką" class="photo-ikelti img-fluid">
+                        <img src="../img/photoPNG.PNG" alt="vieta įkelti savo nuotrauką" class="photo-ikelti img-fluid">
+                        <img src="../img/photoPNG.PNG" alt="vieta įkelti savo nuotrauką" class="photo-ikelti img-fluid">
+                        <img src="../img/photoPNG.PNG" alt="vieta įkelti savo nuotrauką" class="photo-ikelti img-fluid">
+                    </div>
+                    <!-- pasirinkti svorį -->
+                    <div class="dropdown d-inline">
+                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pasirinkite svorį (kg)
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">0,5 kg.</a></li>
+                            <li><a class="dropdown-item" href="#">1 kg.</a></li>
+                            <li><a class="dropdown-item" href="#">1.5 kg.</a></li>
+                            <li><a class="dropdown-item" href="#">2 kg.</a></li>
+                            <li><a class="dropdown-item" href="#">2.5 kg.</a></li>
+                            <li><a class="dropdown-item" href="#">3 kg.</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- pasirinkti skonį -->
+                    <div class="dropdown d-inline">
+                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pasirinkite skonį
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">"Avietėlė" tortas</a></li>
+                            <li><a class="dropdown-item" href="#">"Bajorų" tortas</a></li>
+                            <li><a class="dropdown-item" href="#">Greitutis" tortas</a></li>
+                            <li><a class="dropdown-item" href="#">"Jogurtinis tortas</a></li>
+                            <li><a class="dropdown-item" href="#">"Braškinis" tortas</a></li>
+                            <li><a class="dropdown-item" href="#">"Medaus" tortas</a></li>
+                            <li><a class="dropdown-item" href="#">"Avietėlė" tortas</a></li>
+                            <li><a class="dropdown-item" href="#">"Bajorų" tortas</a></li>
+                            <li><a class="dropdown-item" href="#">Greitutis" tortas</a></li>
+                            <li><a class="dropdown-item" href="#">"Jogurtinis tortas</a></li>
+                            <li><a class="dropdown-item" href="#">"Braškinis" tortas</a></li>
+                            <li><a class="dropdown-item" href="#">"Medaus" tortas</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+                <!-- Užsakymo forma -->
+                <form class="w-50">
+                    <div class="col-sm-12 col-md-6 col-lg-6 g-2 d-inline">
+                        <h6>Prisijungti per:</h6>
+                        <div class="mb-4">
+                            <i class="fab fa-facebook pe-3 register-icon"></i>
+                            <i class="fas fa-envelope ps-3 register-icon"></i>
+                        </div>
+                        <div class="row mb-3">
+                            <div class=" mb-3">
+                                <label for="validationCustom04" class="form-label">Vardas</label>
+                                <input type="text" class="form-control form-control-sm" placeholder="Vardas"
+                                    aria-label="form-control-sm example" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="validationCustom04" class="form-label">Pavardė</label>
+                                <input type="text" class="form-control form-control-sm" placeholder="Pavardė"
+                                    aria-label="form-control-sm example">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">El. paštas</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="vardas@pavarde.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Telefonas</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput6"
+                                    placeholder="+370 655 5555">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Palikite komentarą</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+
+                        <div class=" mb-3 dropdown d-inline">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton3"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Atsiėmimas/Pristatymas
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Shuga parduotuvė</a></li>
+                                <li><a class="dropdown-item" href="#">Pristatymas Vilniaus arba Kauno m.</a></li>
+                                <li><a class="dropdown-item" href="#">Pristatymas į šventės vietą</a></li>
+                            </ul>
+                        </div>
+                        <div class="mb-3 dropdown d-inline">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton4"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Shuga
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item text-uppercase fst-italic" href="#">Vilnius</a></li>
+                                <li><a class="dropdown-item" href="#">Pelkės g. 29</a></li>
+                                <li><a class="dropdown-item" href="#">Balos g. 33</a></li>
+                                <li><a class="dropdown-item text-uppercase fst-italic" href="#">Kaunas</a></li>
+                                <li><a class="dropdown-item" href="#">Kūdros g. 129</a></li>
+                                <li><a class="dropdown-item" href="#">Upelio g. 33</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+
+    </main>
+
+
+
+    <!-- Newsletter -->
+    <section class="bg-newsletter text-light p-5 mt-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h4 class="mb-3 mb-md-0">Naujienlaiškio prenumerata</h4>
+
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Tavo el. paštas">
+
+                    <button class="btn-color btn-lg text-light" type="button">Prenumeruoti</button>
+
+                    <button class="btn-color btn-lg text-light" type="button">
+                        Prenumeruoti
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg col-md-6 col-sm-12">
+                    <div class="text-centered card card-contact pt-4 ps-5 rounded-0 border-0 my-card-1">
+                        <ul class="list-group list-group-flush ms-4">
+                            <p>Pelkės g. 12-23, Kaunas</p>
+                            <p>+370 605 7888</p>
+                            <p>shuga@labaiskanu.lt</p>
+                            <div class="social-icons">
+                                <i class="fas fa-shopping-cart footer-icon-color"></i>
+                                <i class="fas fa-user-circle footer-icon-color ps-4"></i>
+                                <i class="fab fa-facebook footer-icon-color ps-4"></i>
+                                <i class="fab fa-instagram footer-icon-color ps-4"></i>
+                            </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg col-md-6 col-sm-12">
+                    <div class="text-centered card card-contact pt-4 ps-5 rounded-0 border-0 my-card-2">
+                        <ul class="list-group list-group-flush ps-5">
+                            <p class="my_footer">Tortai ir desertai</p>
+                            <p class="text-padding my_footer">Proginiai tortai</p>
+                            <hr />
+                            <p class="text-padding my_footer">Firminiai tortai</p>
+                            <hr />
+                            <p class="text-padding my_footer">Desertai ir pyragaičiai</p>
+                            <hr />
+                            <p class="text-padding my_footer">Pyragai</p>
+                            <hr />
+                            <p class="text-padding my_footer">Sausainiai</p>
+                            <hr />
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg col-md-6 col-sm-12">
+                    <div class="text-centered card card-contact pt-4 ps-5 rounded-0 border-0 my-card-3">
+                        <ul class="list-group list-group-flush ms-4">
+                            <p class="my_footer"><a href=".pages/individualus-uzsakymas.html">Individualus užsakymas</a>
+                            </p>
+                            <p class="my_footer footer_gallery">
+                                <a href="./pages/galerija.html">Galerija</a>
+                            </p>
+                            <p class="my_footer">
+                                <a href="./pages/naujienos.html">Naujienos</a>
+                            </p>
+                            <p class="my_footer">
+                                <a href="./pages/apie-mus.html">Apie mus</a>
+                            </p>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg col-md-6 col-sm-12">
+                    <div class="text-centered card card-contact pt-4 ps-5 rounded-0 border-0 my-card-4">
+                        <ul class="list-group list-group-flush ms-4">
+                            <p class="my_footer">Mus rasite</p>
+                            <p class="my_footer">Kontaktai</p>
+                            <p class="my_footer">Susisiekite su mumis</p>
+                            <p class="my_footer">Prenumerata</p>
+                            <p class="my_footer">Naudojimosi taisyklės</p>
+                            <p class="my_footer">Privatumo politika</p>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr class="mb-0" />
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="../img/image5@2x.png" alt="logo" class="logo footer-logo ms-5" />
+                    </div>
+                    <div class="col-md-4 pt-4 text-center">
+                        <p class="copy-written">© 2022 visos teisės priklauso "Shuga"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CHAT BAR BLOCK -->
+        <div class="chat-bar-collapsible">
+            <button id="chat-button" type="button" class="collapsible">
+                Sveiki, kuo galime padėti?
+                <i id="chat-icon" style="color: #fff" class="fa fa-fw fa-comments-o"></i>
+            </button>
+
+            <div class="content">
+                <div class="full-chat-block">
+                    <!-- Message Container -->
+                    <div class="outer-container">
+                        <div class="chat-container">
+                            <!-- Messages -->
+                            <div id="chatbox">
+                                <h5 id="chat-timestamp"></h5>
+                                <p id="botStarterMessage" class="botText">
+                                    <span>Loading...</span>
+                                </p>
+                            </div>
+
+                            <!-- User input box -->
+                            <div class="chat-bar-input-block">
+                                <div id="userInput">
+                                    <input id="textInput" class="input-box" type="text" name="msg"
+                                        placeholder="Paspauskite 'Enter' isiusti" />
+                                    <p></p>
+                                </div>
+
+                                <div class="chat-bar-icons">
+                                    <i id="chat-icon" style="color: crimson" class="fa fa-fw fa-heart"
+                                        onclick="heartButton()"></i>
+                                    <i id="chat-icon" style="color: #333" class="fa fa-fw fa-send"
+                                        onclick="sendButton()"></i>
+                                </div>
+                            </div>
+
+                            <div id="chat-bar-bottom">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+    <script src="https://kit.fontawesome.com/4629e31c97.js" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="script/responses.js"></script>
+    <script src="script/chat.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
