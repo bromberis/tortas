@@ -158,10 +158,6 @@ hr {
   display: block;
 }
 
-footer ul:last-child{
-  padding-left: 0;
-}
-
 /********* CAROUSEL  **********/
 
 .carousel-inner img {
