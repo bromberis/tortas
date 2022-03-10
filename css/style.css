@@ -221,7 +221,8 @@ hr {
 
 /* ABOUT US */
 .about-us h3,
-.news-title {
+.news-title,
+.delivery-title {
   font-size: 2.8rem;
   text-align: center;
   text-transform: uppercase;
@@ -248,4 +249,10 @@ hr {
 
 .news img {
   width: 30vw;
+}
+
+/* DELIVERY TERMS */
+
+.delivery-terms:hover {
+  text-decoration: none;
 }
