@@ -115,20 +115,19 @@ p {
 /* Newsletter */
 
 .bg-newsletter {
-  background-color:var(--logoColor);
+  background-color: var(--logoColor);
 }
 
 .btn-color {
-background-color: var(--navColor);
-border: 0;
+  background-color: var(--navColor);
+  border: 0;
 }
 
 .news-input {
   width: 660px;
 }
 /* Footer */
-footer
-.icon-footer {
+footer .icon-footer {
   float: left;
 }
 
@@ -162,8 +161,17 @@ hr {
   margin-top: 150px;
 }
 
-footer ul:last-child{
+footer ul:last-child {
   padding-left: 0;
+}
+
+.my_footer:hover a,
+.my_footer a {
+  text-decoration: none;
+}
+
+.my_footer a {
+  color: var(--pColor);
 }
 
 /********* CAROUSEL  **********/
