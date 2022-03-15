@@ -73,7 +73,8 @@ p {
   width: 100%;
 }
 
-.tortas-roze-maza, .photo-ikelti {
+.tortas-roze-maza,
+.photo-ikelti {
   height: 20vh;
 }
 
@@ -89,7 +90,8 @@ p {
   padding-left: 220px;
 }
 
-.my-photo-rose:hover, .photo-ikelti:hover {
+.my-photo-rose:hover,
+.photo-ikelti:hover {
   transform: scale(1.1) translateY(-0.5rem);
   outline: 0.2rem solid var(--logoColor);
 }
@@ -114,9 +116,9 @@ p {
 
 /* Individualus uzsakymas */
 
-.register-icon{
-color:var(--logoColor);
-font-size:30px;
+.register-icon {
+  color: var(--logoColor);
+  font-size: 30px;
 }
 
 .register-icon:hover {
@@ -147,8 +149,8 @@ footer .icon-footer {
   float: left;
 }
 
-.social-icons{
-padding-top: 70px;
+.social-icons {
+  padding-top: 70px;
 }
 
 .text-padding {
@@ -162,7 +164,8 @@ hr {
 }
 
 .footer-icon-color,
-.nav-icon-color {
+.nav-icon-color,
+.my_footer a {
   color: var(--pColor);
 }
 
@@ -214,7 +217,8 @@ hr {
 
 /*laptop view*/
 @media (min-width: 1024px) {
-  .tortas-roze-maza, .photo-ikelti{
+  .tortas-roze-maza,
+  .photo-ikelti {
     width: 9vw;
   }
 }
