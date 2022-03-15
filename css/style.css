@@ -172,7 +172,8 @@ hr {
 .footer-icon-color:hover,
 .nav-icon-color:hover,
 .my_footer:hover,
-.my_menu:hover {
+.my_menu:hover,
+.my_footer a:hover {
   color: var(--logoColor);
 }
 
